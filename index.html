@@ -35,6 +35,29 @@
 
     <div class="container">
         <h1>jQuery Image Caption</h1>
+        <p>
+            This plugin enables you to easily add a caption to any image and use its 'title' tag as the caption.
+        </p>
+
+        <h3>To use:</h3>
+        <p>Simply do</p>
+        <pre><code>
+            $('img.caption').imageCaption();
+        </code></pre>
+
+        <p>This will turn:</p>
+        <code>
+            &lt;img style=&quot;float:right;margin:0 0 15px 15px;&quot; src=&quot;http://stevensegallery.com/210/200&quot; class=&quot;caption&quot; title=&quot;Lorem Ipsum Dolor&quot; /&gt;
+        </code>
+
+        <p>into:</p>
+        <code>
+            &lt;figure style=&quot;float: left; margin: 0px 15px 15px 0px; height: auto;&quot; class=&quot;imageCaption caption-left&quot;&gt;&lt;img src=&quot;http://stevensegallery.com/212/250&quot; class=&quot;caption&quot; title=&quot;Lorem Ipsum Dolor&quot;&gt;&lt;figcaption&gt;Lorem Ipsum Dolor&lt;/figcaption&gt;&lt;/figure&gt;
+        </code>
+        <p>Which you can then style as needed</p>
+
+        <h2>Preview</h2>
+
         <img style="float:right;margin:0 0 15px 15px;" src="http://stevensegallery.com/210/200" class="caption" title="Lorem Ipsum Dolor" />
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fringilla fringilla sem ac interdum. Nulla facilisi. Fusce vitae lorem libero, nec feugiat tellus. Duis porttitor pellentesque auctor. Curabitur in tortor eget lectus dapibus rhoncus.</p>
 
